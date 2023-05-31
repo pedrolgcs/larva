@@ -1,10 +1,9 @@
-import { Button, Header } from "ui";
+import { TextInput } from '@larva/ui'
 
-export default function Page() {
+export default function Home() {
   return (
-    <>
-      <Header text="Docs" />
-      <Button />
-    </>
-  );
+    <main>
+      <TextInput />
+    </main>
+  )
 }
