@@ -4,15 +4,16 @@
   "private": true,
   "scripts": {
     "build": "storybook build",
-    "dev": "storybook dev -p 6006"
+    "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ubli/eslint-config": "*",
-    "@ubli/ts-config": "^*",
-    "@ubli/ui": "*",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "@ubli/eslint-config": "*",
+    "@ubli/ts-config": "^*",
+    "@ubli/ui": "*",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -25,6 +26,7 @@
     "@storybook/blocks": "^7.0.18",
     "@storybook/nextjs": "^7.0.18",
     "@storybook/react": "^7.0.18",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.14-next.2",
     "storybook": "^7.0.18"
   }
