@@ -1,5 +1,5 @@
 {
-  "name": "@larva/eslint-config",
+  "name": "@ubli/eslint-config",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,

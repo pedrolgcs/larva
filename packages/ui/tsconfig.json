@@ -1,5 +1,5 @@
 {
-  "extends": "@larva/ts-config/react-library.json",
+  "extends": "@ubli/ts-config/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

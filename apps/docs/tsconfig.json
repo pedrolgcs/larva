@@ -1,5 +1,5 @@
 {
-  "extends": "@larva/ts-config/nextjs.json",
+  "extends": "@ubli/ts-config/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },

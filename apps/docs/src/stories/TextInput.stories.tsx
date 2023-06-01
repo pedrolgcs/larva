@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
-import { TextInput, TextInputProps } from '@larva/ui'
 import type { Meta, StoryObj } from '@storybook/react'
+import { TextInput, TextInputProps } from '@ubli/ui'
 import styles from './TextInput.module.css'
 
 const inter = Inter({ subsets: ['latin'] })

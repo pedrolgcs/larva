@@ -1,15 +1,15 @@
 {
-  "name": "@larva/docs",
+  "name": "@ubli/docs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "storybook build",
-    "dev": "storybook dev -p 6006",
+    "dev": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@larva/eslint-config": "*",
-    "@larva/ts-config": "^*",
-    "@larva/ui": "^1.0.0",
+    "@ubli/eslint-config": "*",
+    "@ubli/ts-config": "^*",
+    "@ubli/ui": "*",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",

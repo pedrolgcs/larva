@@ -1,5 +1,5 @@
 {
-  "name": "@larva/ui",
+  "name": "@ubli/ui",
   "version": "1.0.0",
   "description": "lib for ui",
   "main": "./dist/index.js",
@@ -13,8 +13,8 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@larva/eslint-config": "*",
-    "@larva/ts-config": "*",
+    "@ubli/eslint-config": "*",
+    "@ubli/ts-config": "*",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
