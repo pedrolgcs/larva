@@ -5,7 +5,7 @@
     "dev": "turbo run dev",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=!@pedrolgcs-ignite-ui/docs && changeset publish"
+    "release": "turbo run build --filter=!@ubli/docs && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
