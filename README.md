@@ -37,8 +37,7 @@
     <a href="https://github.com/pedrolgcs/ubli"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <!-- Link To Storybook -->
-    <a href="https://github.com/pedrolgcs/ubli">Demo</a> 
+    <a href="https://pedrolgcs.github.io/ubli/?path=/story/textinput--primary">Demo</a> 
     ·
     <a href="https://github.com/pedrolgcs/ubli/issues">Reportar problema</a>
     ·
@@ -110,8 +109,7 @@ podendo ser customizado a depender do seu caso de uso.
    }
 ```
 
-<!-- storybook link -->
-_Para mais exemplos, por favor consulte a documentação [Documentação](https://example.com)_
+_Para mais exemplos, por favor consulte a documentação [Documentação](https://pedrolgcs.github.io/ubli/?path=/story/textinput--primary)_
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
