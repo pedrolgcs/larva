@@ -32,7 +32,7 @@
   <h3 align="center">Ubli</h3>
 
   <p align="center">
-    Seu input de texto para todas as horas!
+    Um input de texto específico para situações adversas 😁
     <br />
     <a href="https://github.com/pedrolgcs/ubli"><strong>Explore a documentação »</strong></a>
     <br />
@@ -80,86 +80,84 @@ Para colocar uma cópia local em funcionamento, siga estas etapas simples.
 
 ### Pre-requisitos
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Por ser um projeto desenvolvido utilizando tecnologias do ecossistema react, assumi-se 
+que você tenha uma aplicação web desenvolvida com base no mesmo.
+
 ### Instalação
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Por ser tratar de uma biblioteca de componente, sua instalação e utilização se da de forma bem simples._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   npm install @ubli/ui
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Por ser tratar de um componente de input o mais puro possível, seu uso se da de forma simples e direta, 
+podendo ser customizado a depender do seu caso de uso.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```tsx
+   import { TextInput } from '@ubli/ui';
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+   function Component() {
+    return (
+      <TextInput maskType="phone" />
+    )
+   }
+```
+
+<!-- storybook link -->
+_Para mais exemplos, por favor consulte a documentação [Documentação](https://example.com)_
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- ROADMAP -->
 ## Roteiro
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Desenvolvimento do componente **TextInput**;
+- [x] Suporte a máscaras;
+- [x] Funções auxiliadoras;
+- [x] Criação do storybook para documentação de uso;
+- [ ] Suporte a **Server Component**;
+- [ ] Utilização de uma máscara customizada;
 
-See the [open issues](https://github.com/pedrolgcs/ubli/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contribuindo
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+As contribuições são o que torna a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito apreciadas**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Se você tiver uma sugestão de melhora, bifurque o repositório e crie uma **pull request**. Você também pode simplesmente abrir uma **issue** com a tag "feature".
+Não se esqueça de dar uma estrela ao projeto! Obrigado novamente!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Bifurque o projeto
+2. Crie uma branch para o seu recurso (`git checkout -b feature/AmazingFeature`)
+3. Commit suas modificações (`git commit -m 'Add some AmazingFeature'`)
+4. Envie sua branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- LICENSE -->
 ## Licença
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distribuído sob a licença MIT
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- CONTACT -->
 ## Contato
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Pedro H. - pedro.lg.cs@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/pedrolgcs/ugli](https://github.com/pedrolgcs/ugli)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -175,9 +173,9 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/pedro-lg/
 [product-screenshot]: /images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next.js]: https://img.shields.io/badge/next.js-20232A?style=for-the-badge&logo=nextdotjs
 [Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react
 [React-url]: https://reactjs.org/
 [Turbo-url]: https://turbo.build/ 
 [Turbo]: https://img.shields.io/badge/Turbo-20232A?style=for-the-badge&logo=turborepo
