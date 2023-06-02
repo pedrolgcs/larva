@@ -14,5 +14,10 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
+  webpackFinal: async (config, {configType}) => {
+    if (configType === 'PRODUCTION') {} 
+
+    return config;
+  }
 };
 export default config;
