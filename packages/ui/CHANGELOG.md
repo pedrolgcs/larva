@@ -1,5 +1,11 @@
 # @ubli/ui
 
+## 1.1.2
+
+### Patch Changes
+
+- add readme
+
 ## 1.1.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@ubli/ui",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "lib for ui",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
