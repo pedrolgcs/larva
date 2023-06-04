@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-<img src="images/screenshot.png" alt="Logo">
+<img src="../images/screenshot.png" alt="Logo">
 
 Existem muitas bibliotecas de componentes excelentes disponíveis no GitHub; no entanto, não encontrei uma que realmente atendesse às minhas necessidades, então criei esta aprimorada. Acho que é isso.
 
