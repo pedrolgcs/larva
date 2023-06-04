@@ -1,5 +1,11 @@
 # @ubli/ui
 
+## 1.1.1
+
+### Patch Changes
+
+- add eslintignore in npmignore
+
 ## 1.1.0
 
 ### Minor Changes
