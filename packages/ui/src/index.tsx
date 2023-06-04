@@ -1,3 +1,3 @@
 export * from './components'
 export * from './functions'
-export * from './masks'
+export * as masks from './masks'
