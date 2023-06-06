@@ -25,10 +25,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/pedrolgcs/ubli">
-    <img src="images/logo.svg" alt="Logo" width="100" height="100">
-  </a>
-
   <h3 align="center">Ubli</h3>
 
   <p align="center">
@@ -47,8 +43,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
-
-<img src="../images/screenshot.png" alt="Logo">
 
 Existem muitas bibliotecas de componentes excelentes disponíveis no GitHub; no entanto, não encontrei uma que realmente atendesse às minhas necessidades, então criei esta aprimorada. Acho que é isso.
 
@@ -153,7 +147,7 @@ Distribuído sob a licença MIT
 
 Pedro H. - pedro.lg.cs@gmail.com
 
-Project Link: [https://github.com/pedrolgcs/ugli](https://github.com/pedrolgcs/ugli)
+Project Link: [https://github.com/pedrolgcs/ubli](https://github.com/pedrolgcs/ubli)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 

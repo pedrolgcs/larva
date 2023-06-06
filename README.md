@@ -153,7 +153,7 @@ Distribuído sob a licença MIT
 
 Pedro H. - pedro.lg.cs@gmail.com
 
-Project Link: [https://github.com/pedrolgcs/ugli](https://github.com/pedrolgcs/ugli)
+Project Link: [https://github.com/pedrolgcs/ubli](https://github.com/pedrolgcs/ubli)
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
