@@ -1,5 +1,11 @@
 # @ubli/ui
 
+## 1.1.6
+
+### Patch Changes
+
+- Add toDate auxiliar function
+
 ## 1.1.5
 
 ### Patch Changes
