@@ -80,7 +80,7 @@ que você tenha uma aplicação web desenvolvida com base no mesmo.
 
 _Por ser tratar de uma biblioteca de componente, sua instalação e utilização se da de forma bem simples._
 
-1. Clone the repo
+1. Instalando
    ```sh
    npm install @ubli/ui
    ```
