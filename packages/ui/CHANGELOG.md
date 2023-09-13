@@ -1,5 +1,11 @@
 # @ubli/ui
 
+## 1.1.8
+
+### Patch Changes
+
+- organize money mask function
+
 ## 1.1.7
 
 ### Patch Changes

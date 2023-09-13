@@ -1,23 +1,6 @@
 import { removeMoneyMask } from '../../functions'
 
 const moneyMaskCustomization = {
-  maskBehaviorMode: (value: string | number) => {
-    const numberWithoutMask = removeMoneyMask(value)
-
-    const normalizedMoneyValue = moneyMaskCustomization.normalizeMoneyValue(
-      numberWithoutMask.toString(),
-    )
-
-    const isIntegerOfOneDigit = normalizedMoneyValue.length === 1
-
-    if (isIntegerOfOneDigit) {
-      const newNumberFormat = Number(normalizedMoneyValue) / 100
-      return Number(newNumberFormat).toFixed(2)
-    }
-
-    return normalizedMoneyValue
-  },
-
   normalizeMoneyValue: (value: string) => {
     const [stringInteger, stringDecimal] = value.split('.')
 
@@ -50,6 +33,24 @@ const moneyMaskCustomization = {
     }
 
     return value
+  },
+
+  maskBehaviorMode: (value: string | number) => {
+    const numberWithoutMask = removeMoneyMask(value)
+
+    const normalizedMoneyValue = moneyMaskCustomization.normalizeMoneyValue(
+      numberWithoutMask.toString(),
+    )
+
+    const isIntegerOfOneDigit = normalizedMoneyValue.length === 1
+
+    if (isIntegerOfOneDigit) {
+      const newNumberFormat = Number(normalizedMoneyValue) / 100
+
+      return Number(newNumberFormat).toFixed(2)
+    }
+
+    return normalizedMoneyValue
   },
 }
 
